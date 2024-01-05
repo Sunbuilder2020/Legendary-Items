@@ -52,8 +52,6 @@ public class LegendaryItems {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            ItemProperties.register(ModItems.ATHENAS_SHIELD.get(), new ResourceLocation("blocking"), (itemStack, world, entity, seed) ->
-                    AthenasShield.isShieldBlocking(itemStack, entity) ? 1.0F : 0.0F);
-        }
+            ItemProperties.register(ModItems.ATHENAS_SHIELD.get(), new ResourceLocation("blocking"), (itemStack, world, entity, seed) -> AthenasShield.isShieldBlocking(itemStack, entity) ? 1.0F : 0.0F);        }
     }
 }

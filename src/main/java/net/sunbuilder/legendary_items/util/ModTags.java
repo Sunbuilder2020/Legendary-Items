@@ -10,7 +10,7 @@ import net.sunbuilder.legendary_items.LegendaryItems;
 
 public class ModTags {
     public static class Blocks {
-        public static final TagKey<Block> NEEDS_HARDENED_GOLD_TOOL = tag("needs_sapphire_tool");
+        public static final TagKey<Block> NEEDS_HARDENED_GOLD_TOOL = tag("needs_hardened_gold_tool");
 
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(LegendaryItems.MOD_ID, name));
