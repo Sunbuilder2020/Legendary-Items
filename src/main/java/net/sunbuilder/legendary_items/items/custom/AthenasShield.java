@@ -16,7 +16,6 @@ import software.bernie.geckolib.util.RenderUtils;
 import java.util.function.Consumer;
 
 public class AthenasShield extends ShieldItem implements GeoItem {
-    //This is very unnecessary
     private AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
 
     public AthenasShield(Properties pProperties) {
