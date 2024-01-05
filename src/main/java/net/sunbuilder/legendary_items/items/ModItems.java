@@ -18,7 +18,7 @@ public class ModItems {
             () -> new MidasSword(ModToolTiers.HARDENED_GOLD, 0, -2.4f, new Item.Properties().setNoRepair().rarity(Rarity.RARE)));
 
     public static final RegistryObject<Item> ATHENAS_SHIELD = Items.register("athenas_shield",
-            () -> new AthenasShield(new Item.Properties()));
+            () -> new AthenasShield(new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         Items.register(eventBus);
