@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ç ",
+    "#+#",
+    " / "
+  ],
+  "key": {
+    "+": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "#": {
+      "item": "minecraft:netherite_block"
+    },
+    "ç": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "/": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "legendary_items:midas_sword"
+  }
+}
